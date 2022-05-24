@@ -18,7 +18,6 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "user" && password === "t") {
-        alert("You have successfully logged in.");
         setCookie("test", "Not Empty", 20)
         window.location = "index.html";
     } else {
