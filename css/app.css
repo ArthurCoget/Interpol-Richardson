@@ -21,7 +21,7 @@
 
 .watermark {
     position: fixed;
-    opacity: .25;
+    opacity: .1;
     top: 0;
     left: 0;
     width: 100%;
@@ -5184,6 +5184,7 @@ body[dir="rtl"] .notice__btnIcon {
 .pageDescriptionp {
     font-family: 'Open Sans Condensed';
     font-size: 24px;
+    font-weight: 700;
 }
 
 @media screen and (max-width:767px) {
@@ -9116,6 +9117,10 @@ body[dir="rtl"] .notice__btnIcon {
 
 .ezrichtext-field p+p {
     margin-top: 10px
+}
+
+.ezrichtext-field p {
+    font-weight: 501;
 }
 
 .ezrichtext-field ul,
