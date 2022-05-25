@@ -98,11 +98,14 @@ body {
     flex-direction: column;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     body {
         overflow: hidden;
         position: absolute;
     }
+}
+
+@media only screen and (max-width: 1250px) {
     #main-holder {
         z-index: 1;
         width: 75%;
