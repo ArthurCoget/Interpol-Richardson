@@ -1,6 +1,12 @@
 html {
     height: 100%;
-    background-color: #241f21;
+    background-color: #000;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    position: fixed;
 }
 
 body {
@@ -10,7 +16,7 @@ body {
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: #241f21;
+    background-color: #000;
 }
 
 #main-holder {
