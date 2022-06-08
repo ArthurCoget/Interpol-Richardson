@@ -17,8 +17,8 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "t") {
-        setCookie("test", "Not Empty", 20)
+    if (username === "Richardson" && password === "jalhay2022") {
+        setCookie("test", "Not Empty", 60)
         window.location = "index.html";
     } else {
         loginErrorMsg.style.opacity = 1;
