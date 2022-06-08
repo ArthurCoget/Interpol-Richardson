@@ -64,6 +64,16 @@
             color: #b31240;
         }
         
+        #Richardson {
+            border: 5px solid #cc3300;
+            top: 32%;
+            left: 46%
+        }
+        
+        #Richardson h2 {
+            color: #cc3300;
+        }
+        
         #newZealand {
             top: 85.5%;
             left: 93%
@@ -161,7 +171,7 @@
             }
         }*/
         
-        @media only screen and (max-device-width: 950px) {
+        @media only screen and (max-width: 950px) {
             #newZealand {
                 transform: translate(-85%, -50%);
             }
@@ -169,8 +179,8 @@
                 transform: translate(-77.5%, -50%);
             }
             #italy {
-                top: 38%;
-                left: 48%;
+                top: 40%;
+                left: 51%;
                 transform: translate(-50.5%, -50%);
             }
             #africa {
