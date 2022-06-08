@@ -45,4 +45,9 @@ function draw() {
     }
 }
 
+function resizeCanvas() {
+    c.height = window.outerHeight;
+    c.width = window.outerWidth;
+}
+window.addEventListener('resize', resizeCanvas)
 setInterval(draw, 35);
