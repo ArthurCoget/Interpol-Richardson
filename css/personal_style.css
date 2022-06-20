@@ -36,6 +36,11 @@
             text-align: center;
         }
         
+        .text h1 {
+            padding-top: 1.5em;
+            line-height: normal;
+        }
+        
         .text p {
             font-size: larger;
         }
@@ -110,6 +115,10 @@
             max-width: inherit;
             max-height: 90%;
             align-self: center;
+        }
+        
+        .checkmark {
+            list-style-position: inside;
         }
         
         .checkmark li {
