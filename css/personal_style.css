@@ -29,7 +29,8 @@
             margin-left: -50%;
         }
         
-        .text {
+        .text,
+        .text h1 {
             font-family: 'Special Elite';
             font-weight: 900;
             text-align: center;
@@ -109,6 +110,24 @@
             max-width: inherit;
             max-height: 90%;
             align-self: center;
+        }
+        
+        .checkmark li {
+            list-style-type: '✓ ';
+        }
+        
+        .checkmark li::marker {
+            color: #57B1DE;
+            font-weight: bold;
+        }
+        
+        li.warning {
+            list-style-type: "⚠ ";
+        }
+        
+        li.warning::marker {
+            color: #b31240;
+            font-weight: bold;
         }
         /*
         @media only screen and (max-device-width: 900px) {
